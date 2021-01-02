@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/', 'QuoteController@index')->name('index');
+Route::get('/halo', 'QuoteController@click')->name('click');

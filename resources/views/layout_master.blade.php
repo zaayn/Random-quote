@@ -29,7 +29,7 @@
           <div class="col-md-12 nav-wrapper">
             <div class="navbar-header" style="width:100%;">
                 <a href="index.html" class="navbar-brand"> 
-                 <b>MIMIN</b>
+                 <b>Random Quote</b>
                 </a>
             </div>
           </div>
@@ -42,7 +42,6 @@
             <div class="col-md-2"></div>
             
             <div class="col-md-8">
-                @yield('content-header')
                 @yield('content')
             </div>
 
